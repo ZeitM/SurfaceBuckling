@@ -1,0 +1,239 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2206                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       polyBoundaryMesh;
+    location    "0.01/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+31
+(
+    wall
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          58;
+        startFace       2419;
+    }
+    inlet
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          19;
+        startFace       2477;
+    }
+    outlet
+    {
+        type            patch;
+        physicalType    patch;
+        nFaces          19;
+        startFace       2496;
+    }
+    defaultFaces
+    {
+        type            empty;
+        nFaces          3336;
+        startFace       2515;
+    }
+    overTop5
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5851;
+    }
+    overTop4
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5853;
+    }
+    overTop3
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5855;
+    }
+    overTop2
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5857;
+    }
+    overTop1
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          6;
+        startFace       5859;
+    }
+    arcStart
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          6;
+        startFace       5865;
+    }
+    arcTop1
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          6;
+        startFace       5871;
+    }
+    arcTop2
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5877;
+    }
+    arcTop3
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5879;
+    }
+    arcTop4
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5881;
+    }
+    arcTop5
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5883;
+    }
+    arcTop6
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5885;
+    }
+    arcEndTop
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          3;
+        startFace       5887;
+    }
+    overTop6
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5890;
+    }
+    arcBot5
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5892;
+    }
+    arcBot4
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5894;
+    }
+    arcBot3
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5896;
+    }
+    arcBot2
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5898;
+    }
+    arcBot1
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          3;
+        startFace       5900;
+    }
+    overBot1
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          3;
+        startFace       5903;
+    }
+    overBot2
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5906;
+    }
+    overBot3
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5908;
+    }
+    overBot4
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5910;
+    }
+    overBot5
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5912;
+    }
+    overBot6
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5914;
+    }
+    arcEndBot
+    {
+        type            overset;
+        physicalType    patch;
+        nFaces          3;
+        startFace       5916;
+    }
+    arcBot6
+    {
+        type            wall;
+        physicalType    patch;
+        nFaces          2;
+        startFace       5919;
+    }
+)
+
+// ************************************************************************* //
