@@ -1,3 +1,5 @@
 This openfoam case uses the overInterDyMFoam solver
 In this case a geometry change/"growth" is tried to achieve using the laplacianVelocity motionSolver, 
 however after a few timesteps the defined patches start to deform/buckle in on itself.
+
+This test case is not meant for any specific result, only to show the surface buckling
